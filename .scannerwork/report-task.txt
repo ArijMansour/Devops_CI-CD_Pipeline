@@ -1,0 +1,6 @@
+projectKey=tn.esprit.spring:Timesheet-spring-boot-core-data-jpa-mvc-REST-1
+serverUrl=http://localhost:9000
+serverVersion=6.7.7.38951
+dashboardUrl=http://localhost:9000/dashboard/index/tn.esprit.spring:Timesheet-spring-boot-core-data-jpa-mvc-REST-1
+ceTaskId=AXzn3TrMvEm531rlfi_W
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXzn3TrMvEm531rlfi_W
