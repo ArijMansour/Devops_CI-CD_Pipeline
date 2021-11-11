@@ -1,4 +1,5 @@
-pipeline{ 
+pipeline{
+/*some changes*/ 
 environment{
 		registry = 'arijmansour/timesheet-devops'
 		registryCredential= 'dockerHub'
