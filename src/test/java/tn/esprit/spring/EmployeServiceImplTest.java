@@ -35,7 +35,7 @@ public class EmployeServiceImplTest {
 
 	private static final Logger l = LogManager.getLogger(EmployeServiceImplTest.class);
 	private static final long DEFAULT_TIMEOUT = 10000;
-
+/*sonar analyse*/
 	@Autowired
 	IEmployeService empService;
 
