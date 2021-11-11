@@ -3,7 +3,6 @@ package tn.esprit.spring;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.*;
 
-
 import java.util.List;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
@@ -34,9 +33,9 @@ public class EntrepriseServiceImplTest {
 
 	@Test(timeout = DEFAULT_TIMEOUT)
 	public void ajouterEntrepriseTest() {
-		Entreprise e = new Entreprise("ent1", "ent2");
-		Entreprise ee = new Entreprise("ent3", "ent4");
-		Entreprise eee = new Entreprise("ent5", "ent6");
+		Entreprise e = new Entreprise("SSII Consulting", "cite al ghazela");
+		Entreprise ee = new Entreprise("Vermeg", "Lac1");
+		Entreprise eee = new Entreprise("Visteon", "Borj sedreya");
 		try {
 
 			l.info("In ajouterEntrepriseTest() : ");
@@ -66,9 +65,9 @@ public class EntrepriseServiceImplTest {
 
 	@Test(timeout = DEFAULT_TIMEOUT)
 	public void ajouterDepartementTest() {
-		Departement d = new Departement("dep1");
-		Departement dd = new Departement("dep2");
-		Departement ddd = new Departement("dep3");
+		Departement d = new Departement("RH");
+		Departement dd = new Departement("Engineering");
+		Departement ddd = new Departement("Quality");
 		try {
 
 			l.info("In ajouterDepartementTest() : ");
@@ -125,20 +124,20 @@ public class EntrepriseServiceImplTest {
 
 			List<String> s = emp.getAllDepartementsNamesByEntreprise(1);
 			System.out.println(s);
-			/*assertThat(s).size().isGreaterThan(0);
-
-			l.info(s.size() + "> 0");*/
+			/*
+			 * assertThat(s).size().isGreaterThan(0);
+			 * 
+			 * l.info(s.size() + "> 0");
+			 */
 			l.info("Out getAllDepartementsNamesByEntrepriseTest() without errors.");
 
 		}
-		
 
 		catch (Exception e1) {
 			l.error("Erreur dans getAllDepartementsNamesByEntrepriseTest()  : " + e1);
 		}
 
 	}
-	
 
 	@Test(timeout = DEFAULT_TIMEOUT)
 	public void deleteEntrepriseByIdTest() {
