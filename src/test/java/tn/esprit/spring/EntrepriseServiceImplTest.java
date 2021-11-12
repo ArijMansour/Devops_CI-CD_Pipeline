@@ -30,7 +30,7 @@ public class EntrepriseServiceImplTest {
 	EntrepriseServiceImpl emp;
 	@Autowired
 	IEntrepriseService ent;
-
+/*sonar Analyse */
 	@Test(timeout = DEFAULT_TIMEOUT)
 	public void ajouterEntrepriseTest() {
 		Entreprise e = new Entreprise("SSII Consulting", "cite al ghazela");
