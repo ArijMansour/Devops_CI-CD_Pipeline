@@ -116,6 +116,7 @@ public class EntrepriseServiceImplTest {
 	}
 
 	@Test(timeout = DEFAULT_TIMEOUT)
+	/*getalldepartementsNamesByEntreprises*/
 	public void getAllDepartementsNamesByEntrepriseTest() {
 
 		try {
