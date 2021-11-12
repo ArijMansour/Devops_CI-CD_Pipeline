@@ -141,6 +141,7 @@ public class EntrepriseServiceImplTest {
 	}
 
 	@Test(timeout = DEFAULT_TIMEOUT)
+	/*deleteEntrepriseBIdtest*/
 	public void deleteEntrepriseByIdTest() {
 
 		try {
